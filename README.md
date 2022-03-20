@@ -1,5 +1,5 @@
-#### ViaLend
-### Sustainable Liquidity Management
+# ViaLend
+## Sustainable Liquidity Management
 
 Automate and connect proven DeFi protocols, for everyday investors to simply:
 * earn more
