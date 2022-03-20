@@ -1,0 +1,15 @@
+B create A
+
+B call A func
+
+A call B func
+
+abigen --sol ./B.sol --pkg api --out ./deploy/AB.go
+
+
+if abigen not found: 
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/golang
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+source ~/.profile

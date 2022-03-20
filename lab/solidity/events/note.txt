@@ -1,0 +1,5 @@
+
+solc --optimize --overwrite --abi InfoContract.sol -o ./
+solc --optimize --overwrite --bin InfoContract.sol -o ./
+
+abigen --abi=./InfoContract.abi --bin=./InfoContract.bin --pkg=api --out=./InfoContract.go

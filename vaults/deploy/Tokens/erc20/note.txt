@@ -1,0 +1,20 @@
+INFO:
+	tokens total supply
+	weth    6,718,113.782417289750857735
+	USDC  	26,512,386,160.20955 
+
+	*** DEPLOY NEW Token
+	
+  	solc --optimize --overwrite --abi ERC20fixedSupply.sol -o ../build
+	solc --optimize --overwrite --bin ERC20fixedSupply.sol -o ../build
+	abigen --abi=../build/ERC20fixedSupply.abi --bin=../build/ERC20fixedSupply.bin --pkg=api --out=../deploy/ERC20fixedSupply/ERC20fixedSupply.go
+
+	in and modify token details and run ./deploy/token_deploy.go
+
+	copy token address
+
+
+
+  	solc --optimize --overwrite --abi WETH9.sol.go -o ../build
+	solc --optimize --overwrite --bin WETH9.sol.go -o ../build
+	abigen --abi=../build/WETH9.abi --bin=../build/WETH9.bin --pkg=api --out=../deploy/WETH9/WETH9.go

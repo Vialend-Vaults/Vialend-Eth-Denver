@@ -1,0 +1,15 @@
+Smart Contracts:
+
+VaultFactory.sol
+VaultStrategy.sol
+ViaVault.sol
+
+solc compile
+abigen to generate go package
+deploy VaultFactory 
+deploy VaultStrategy
+get 3 addresses
+
+
+
+

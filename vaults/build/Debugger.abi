@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"string","name":"a1","type":"string"},{"internalType":"string","name":"a2","type":"string"}],"name":"append2","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"pure","type":"function"}]

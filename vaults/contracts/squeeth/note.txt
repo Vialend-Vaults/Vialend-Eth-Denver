@@ -1,0 +1,6 @@
+
+ShortHelper (Ropsten)   0x8903918DFE74476E90B63061E5b9c3E63b65d3F4
+Controller (Ropsten)   0x59F0c781a6eC387F09C40FAA22b7477a2950d209
+Oracle (Ropsten)   0xbd9f4be886653177d22fa9c79fd0dfc41407fc89
+ShortPowerPerp  (Ropsten)
+WPowerPerp (Squeeth) (Ropsten)   0xa4222f78d23593e82Aa74742d25D06720DCa4ab7

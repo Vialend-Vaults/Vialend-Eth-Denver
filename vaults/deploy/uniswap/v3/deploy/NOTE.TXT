@@ -1,0 +1,21 @@
+factory:
+solc --overwrite --optimize --abi uniswapV3Factory.sol -o ../build/uniswapV3Factory
+solc --overwrite --optimize --bin uniswapV3Factory.sol -o ../build/uniswapV3Factory
+abigen --abi=../build/uniswapV3Factory/UniswapV3Factory.abi --bin=../build/uniswapV3Factory/UniswapV3Factory.bin --pkg=api --out=../deploy/uniswapv3Factory/uniswapV3Factory.go
+abigen --abi=./build/uniswapV3Factory/UniswapV3Factory.abi --bin=./build/uniswapV3Factory/UniswapV3Factory.bin --pkg=api --out=./deploy/uniswapv3Factory/uniswapV3Factory.go
+
+0x42414849A1f13b4d17C2B2eCd2dBfc6124567416
+
+
+TestUniswapV3Callee.sol 
+solc --overwrite --optimize --abi TestUniswapV3Callee.sol -o ../build/TestUniswapV3Callee
+solc --overwrite --optimize --bin TestUniswapV3Callee.sol -o ../build/TestUniswapV3Callee
+abigen --abi=../build/TestUniswapV3Callee/TestUniswapV3Callee.abi --bin=../build/TestUniswapV3Callee/TestUniswapV3Callee.bin --pkg=api --out=../deploy/TestUniswapV3Callee/TestUniswapV3Callee.go
+abigen --abi=./build/TestUniswapV3Callee/TestUniswapV3Callee.abi --bin=./build/TestUniswapV3Callee/TestUniswapV3Callee.bin --pkg=api --out=./deploy/TestUniswapV3Callee/TestUniswapV3Callee.go
+
+0x0B85A667183b83a07977Bdda130E00383D062FfE (add swap)
+0xE3c433a67e56BD49d93cCA86728C07bE531c2DCc  (add burnAndCollect)
+0x9b655dA9aedd3A53B2Cf01b7687dd3fB9917F758  (modified burnAndCollect)
+
+Pool:
+0x7fC72c725fCd549492294E544CAa893f30FDC11b

@@ -1,0 +1,33 @@
+opyn
+
+ropsten address:
+
+weth
+0xc778417E063141139Fce010982780140Aa0cD5Ab
+
+squeeth contract 
+0x528a19A3e88861E7298C86fE5490B8Ec007a4204
+
+oSqth/ WETH univ3 pool 
+0x921c384F79de1BAe96d6f33E3E5b8d0B2B34cb68
+
+
+
+
+
+3.0 note:
+
+deployStrat.sol doesn't work. because of error to compile the bin: 
+ERROR:
+
+solc --optimize --overwrite --bin DeployStrat.sol -o ../build
+Warning: Contract code size is 33097 bytes and exceeds 24576 bytes (a limit introduced in Spurious Dragon). This contract may not be deployable on mainnet. Consider enabling the optimizer (with a low "runs" value!), turning off revert strings, or using libraries.
+
+another concern is a high gas cost of the run time deployment will be applied.
+
+
+
+steps to deploy and test:
+1. run solc and abigen in _solc.sh from wsl
+2. modify and run index.go to deploy 
+3. run other tests. 
