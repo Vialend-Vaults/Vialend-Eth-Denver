@@ -17,3 +17,16 @@ challenges:
 
 1. Use Squeeth to hedge impermanent loss of automated market making.
 2. Use Aave flash loans to create a ETH short for delta neutrality.
+3. Improve UI landing page
+
+### Rinkeby Deployed Contracts 
+# Strategy Contact
+0x510c44CAFACFb4e19D9eBb34d7DC5b3B7b3340be
+
+# Test rebalance transactions
+https://rinkeby.etherscan.io/tx/0x28cbde6134ddbf2f763a3df01fe7578ff5f0d69046a3ead7af4670eeb3654287
+
+# Test Aave short and unwind transactions
+https://rinkeby.etherscan.io/tx/0xe9a572f939510e6aba4ea1f8ff042efced91f2c9478af9f0db1a7b60dc3d2c23
+https://rinkeby.etherscan.io/tx/0x9dbf3c6f0aebfd6a12e4ddc3984d023a28cd552285a95622a9e3f5133048eeac
+
