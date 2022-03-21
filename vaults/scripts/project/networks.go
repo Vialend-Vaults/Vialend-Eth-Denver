@@ -354,10 +354,7 @@ var Networks = [...]Params{
 
 		"0x1F98431c8aD98523631AE4a59f267346ea31F984", //factory
 		"", //callee
-		[11]string{
-			"3ff408e9e5342c7e3f540bba9345da9b0fdaabb7a6e4eaceb7de126a1ba55391",
-			"f12e87b71f16f24f192941ecc3aff77e8ebcc7be01dd8d7d1245d7644ce8c93b",
-		},
+		[11]string{},
 		"0x6aFA9B0F44f125028573Da29c1f00A89C9C8AC99", // usdc self deployed
 		"0xaab1f2c9835cA4A15f6330967aBEfBa5Edf79F7d", // weth self deployed
 		//"0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b", //tokenA  usdc
