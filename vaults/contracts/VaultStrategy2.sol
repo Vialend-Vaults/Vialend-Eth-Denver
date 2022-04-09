@@ -674,11 +674,12 @@ contract VaultStrategy2
 
 	/// get oracle price from ChainLink 	
     function getPrice() public view returns(uint256) {
-        //( uint80 roundID, int price, uint startedAt, uint timeStamp, uint80 answeredInRound) = priceFeed.latestRoundData();
-        //( , int price,,,) = priceFeed.latestRoundData();
-		//return uint256( price );
-		
-		return getEthPriceFromPool(_USDC,500);
+        ( uint80 roundID, int price, uint startedAt, uint timeStamp, uint80 answeredInRound) = priceFeed.latestRoundData();
+        ( , int price,,,) = priceFeed.latestRoundData();
+	return uint256( price );
+	
+	// Used when testing rebalance on rinkeby. 
+	//	return getEthPriceFromPool(_USDC,500);
     }
 
 /*    

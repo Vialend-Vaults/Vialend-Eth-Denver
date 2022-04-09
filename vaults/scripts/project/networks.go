@@ -354,7 +354,7 @@ var Networks = [...]Params{
 
 		"0x1F98431c8aD98523631AE4a59f267346ea31F984", //factory
 		"", //callee
-		[11]string{ },
+		[11]string{},
 		"0x6aFA9B0F44f125028573Da29c1f00A89C9C8AC99", // usdc self deployed
 		"0xaab1f2c9835cA4A15f6330967aBEfBa5Edf79F7d", // weth self deployed
 		//"0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b", //tokenA  usdc
