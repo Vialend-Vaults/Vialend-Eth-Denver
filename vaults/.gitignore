@@ -13,6 +13,7 @@ V1.3/
 @openzeppelin/
 compound-protocol/
 aave-v3-core/
+networks.go
 
 
 
